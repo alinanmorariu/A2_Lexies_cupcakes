@@ -1,115 +1,194 @@
 * {
-	    box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background: url(../img/background_1.jpg) no-repeat center center fixed;
+	background-size: cover;
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	font-size: 16px;
+	margin: 0 auto;
+}
+
+#wrapper {
+	margin: 0 auto;
+	max-width: 960px;
+}
+
+#logo {
+	margin: inherit;
+	text-align: center;
+}
+
+#menu {
+	display: table;
+	list-style: none;
+	margin-top: 0;
+	-webkit-padding-start: 0px;
+	-moz-padding-start: 0px;
+}
+
+#menu li {
+	color: #ffffff;
+	display: table-cell;
+	padding: 6px 6px 2px 6px;
+	text-align: center;
+	text-transform: uppercase;
+	vertical-align: middle;
+	width: 15%;
+}
+
+#menu li:last-child {
+	width: 18%;
+	background: rgba(115, 51, 163, 1);
+}
+
+#menu li:first-child {
+	width: 8%;
+}
+
+#menu a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#menu .not-selected:hover {
+	background: rgba(115, 51, 163, 0.6);
+}
+
+.selected {
+	background: rgba(115, 51, 163, 1);
+}
+
+.not-selected {
+	background: rgba(115, 51, 163, 0.36);
+}
+
+footer {
+	background: rgba(115, 51, 163, 0.36);
+	color: #fff;
+	overflow: hidden;
+}
+
+footer section {
+	clear: both;
+	padding: 16px 0;
+	text-align: center;
+}
+
+.info {
+	border-top: 1px dotted #fff;
+	border-bottom: 1px dotted #fff;
+}
+
+.contact-number {
+	font-weight: 600;
+}
+
+footer p {
+	line-height: 2em;
+	margin-top: 2px;
+}
+
+.social-media-link {
+	margin-right: 4px;
+}
+
+.info > div {
+	padding: 0 20px;
+}
+
+@media only screen and (min-width: 768px) {
+	.info {
+		border-left: 1px dotted #fff;
+		border-right: 1px dotted #fff;
+		border-top: 0;
+		border-bottom: 0;
+		min-height: 100px;
+		padding: 0;
+	}
+}
+/*----------------------homepage design*/
+
+
+#welcome {
+	text-align: center;
+	font-size: 0.9em;
+	line-height: 1.5em;
+	color: #fff;
+	background: rgba(115, 51, 163, 0.36);
+	padding: 54px 20px;
+	
+}
+
+#welcome h2 {
+	text-transform: uppercase;
+	font-size: 1.2em;
+}
+
+#products {
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#products:hover {
+	color: rgba(115, 51, 163, 1);
+}
+
+#img_container {
+	display: none;
+}
+
+#full_image img {
+	width: 100%;
+	
+}
+
+#full_image{
+	padding-left:0 !important;
+	padding-right:0 !important;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+@media only screen and (min-width: 992px) {
+	#full_image {
+		display: none;
+	}
+	#img_container {
+		display: block;	
+		padding-right: 28px;
+	}
+	
+	#intro{
+	margin-bottom: 20px;
+	margin-top: 8px;
 }
 	
-	body {
-        background: url(../img/background_1.jpg) no-repeat center center fixed;
-	    background-size: cover;
-	    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
-	    font-size: 16px;
-	    margin: 0 auto;
+	#cup_img, #img_container{
+		padding-left: 0 !important;
+		margin-left: 0 !important;
+		
 	}
 	
-	#wrapper {
-	    margin: 0 auto;
-	    max-width: 960px;
+	#cup_img img{
+		padding-right: 10px;
 	}
 	
-	#logo {
-	    margin: inherit;
-	    text-align: center;
+	#peanut{
+		margin-bottom: 20px;
+	}
+	#peanut_cin{
+		padding-left: 0;
 	}
 	
-	#menu {
-	    display: table;
-	    list-style: none;
-	    margin-top: 0;
-        -webkit-padding-start: 0px;
-        -moz-padding-start: 0px;
+	#welcome{
+		margin-right: 0 !important;
+		height: 100%;
+			
 	}
 	
-	#menu li {
-	    color: #ffffff;
-	    display: table-cell;
-	    padding: 6px 6px 2px 6px;
-	    text-align: center;
-	    text-transform: uppercase;
-	    vertical-align: middle;
-	    width: 15%;
-	}
 	
-	#menu li:last-child {
-	    width: 18%;
-	    background: rgba(115, 51, 163, 1);
-	}
-	
-	#menu li:first-child {
-	    width: 8%;
-	}
-	
-	#menu a {
-	    color: #fff;
-	    text-decoration: none;
-	    text-transform: uppercase;
-	}
-	
-	#menu .not-selected:hover {
-	    background: rgba(115, 51, 163, 0.6);
-	}
-	
-	.selected {
-	    background: rgba(115, 51, 163, 1);
-	}
-	
-	.not-selected {
-	    background: rgba(115, 51, 163, 0.36);
-	}
-	
-	footer {
-	    background: rgba(115, 51, 163, 0.36);
-	    color: #fff;
-	    overflow: hidden;
-	}
-	
-	footer section {
-	    clear: both;
-	    padding: 16px 0;
-	    text-align: center;
-	}
-	
-	.info {
-	    border-top: 1px dotted #fff;
-	    border-bottom: 1px dotted #fff;
-	}
-	
-	.contact-number {
-	    font-weight: 600;
-	}
-	
-	footer p {
-	    line-height: 2em;
-	    margin-top: 2px;
-	}
-	
-	.social-media-link {
-	    margin-right: 4px;
-	}
-	
-	.info > div {
-	    padding: 0 20px;
-	}
-	
-	@media only screen and (min-width: 768px) {
-	    
-	    .info {
-	        border-left: 1px dotted #fff;
-	        border-right: 1px dotted #fff;
-	        border-top: 0;
-	        border-bottom: 0;
-	        min-height: 100px;
-	        padding: 0;
-	    }
-	}
-
-	
-	
+}
