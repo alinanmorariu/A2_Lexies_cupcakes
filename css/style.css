@@ -167,7 +167,7 @@ li {
 .details {
     background: rgba(115, 51, 163, 0);
     color: #fff;
-    padding: 12%;
+    padding: 12% 10%;
     text-align: center;
     transition: background 0.5s ease-out;
     visibility: hidden;
@@ -198,8 +198,7 @@ div.details:hover {
 .detailed-image-container-4,
 .detailed-image-container-5,
 .detailed-image-container-6 {
-    visibility: hidden;
-    width: 0;
+    display: none;
 }
 
 .last-row {
@@ -226,7 +225,7 @@ div.details:hover {
     .detailed-image-container-1, .detailed-image-container-2, .detailed-image-container-3, .detailed-image-container-4, .detailed-image-container-5, .detailed-image-container-6 {
         background-size: cover;
         background-repeat: no-repeat;
-        visibility: visible;
+        display: block;
         margin-right: -15px;
         margin-left: 12px;
         padding-bottom: 4%;
@@ -262,7 +261,7 @@ div.details:hover {
         padding: 38% 12% 43% 12%;
     }
     .detailed-image-container-4 .saying {
-        padding: 35% 12% 40% 12%;
+        padding: 35% 20% 40% 12%;
     }
     .detailed-image-container-2 .saying,
     .detailed-image-container-3 .saying,
