@@ -111,13 +111,17 @@ footer p {
 }
 
 
-/*------------------ CUPCAKES PAGE STYLES -----------------*/
-
-p,
-li {
+p, li, span {
     font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
     font-size: 16px;
 }
+
+.footer-row {
+    margin:0;
+}
+
+
+/*------------------ CUPCAKES PAGE STYLES -----------------*/
 
 .cupcakes-content {
     clear: both;
@@ -210,14 +214,27 @@ div.details:hover {
         height: 245px;
     }
     .details {
-        font-size: 0.8em;
-        padding: 10% 9% 12% 9%;
+        padding: 5% 9% 12% 9%;
     }
     .details h2 {
         font-size: 1.2em;
     }
+    
+    .details p {
+        font-size: 0.9em;
+    }
+    
+    .details span {
+        font-size: 1em;
+    }
     .cupcakes-content {
         height: 245px;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 565px) {
+    .details {
+        padding: 14% 10% 15% 10%;
     }
 }
 
