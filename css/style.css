@@ -77,6 +77,14 @@ footer section {
 	text-align: center;
 }
 
+#first-footer-section {
+    padding: 16px 0px 16px 20px;
+}
+
+#last-footer-section {
+    padding: 16px 20px 16px 0px;
+}
+
 .info {
 	border-top: 1px dotted #fff;
 	border-bottom: 1px dotted #fff;
@@ -89,6 +97,7 @@ footer section {
 footer p {
 	line-height: 2em;
 	margin-top: 2px;
+    font-size: 0.96em;
 }
 
 .social-media-link {
@@ -110,25 +119,27 @@ footer p {
 	}
 	p,
 	li,
-	span {
+	span, a {
 		font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
 		font-size: 16px;
 	}
-	.footer-row {
-		margin: 0;
-	}
+}
+
 	/*----------------------homepage design*/
-	#welcome {
-		text-align: center;
-		font-size: 0.9em;
+	#welcome p, a{
+		font-size: 1em;
 		line-height: 1.5em;
-		color: #fff;
+    }
+    #welcome {
+        text-align: center;
+        color: #fff;
 		background: rgba(115, 51, 163, 0.36);
-		padding: 54px 20px;
+		padding: 32px 20px;
 	}
 	#welcome h2 {
 		text-transform: uppercase;
 		font-size: 1.2em;
+        font-weight: bold;
 	}
 	#products {
 		color: #fff;
