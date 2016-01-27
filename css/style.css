@@ -109,8 +109,9 @@ footer p {
 		padding: 0;
 	}
 }
-/*----------------------homepage design*/
 
+
+/*----------------------homepage design*/
 
 #welcome {
 	text-align: center;
@@ -119,7 +120,6 @@ footer p {
 	color: #fff;
 	background: rgba(115, 51, 163, 0.36);
 	padding: 54px 20px;
-	
 }
 
 #welcome h2 {
@@ -143,12 +143,11 @@ footer p {
 
 #full_image img {
 	width: 100%;
-	
 }
 
-#full_image{
-	padding-left:0 !important;
-	padding-right:0 !important;
+#full_image {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
 	margin-bottom: 20px;
 	margin-top: 10px;
 }
@@ -158,37 +157,172 @@ footer p {
 		display: none;
 	}
 	#img_container {
-		display: block;	
+		display: block;
 		padding-right: 28px;
 	}
-	
-	#intro{
-	margin-bottom: 20px;
-	margin-top: 8px;
-}
-	
-	#cup_img, #img_container{
+	#intro {
+		margin-bottom: 20px;
+		margin-top: 8px;
+	}
+	#cup_img,
+	#img_container {
 		padding-left: 0 !important;
 		margin-left: 0 !important;
-		
 	}
-	
-	#cup_img img{
+	#cup_img img {
 		padding-right: 10px;
 	}
-	
-	#peanut{
+	#peanut {
 		margin-bottom: 20px;
 	}
-	#peanut_cin{
+	#peanut_cin {
 		padding-left: 0;
 	}
-	
-	#welcome{
+	#welcome {
 		margin-right: 0 !important;
 		height: 100%;
-			
 	}
-	
-	
 }
+
+
+/*----------------------contact design*/
+
+#contact-img img {
+	width: 100%;
+}
+
+#contact-img {
+	margin-bottom: 20px;
+	margin-top: 10px;
+	width: 100%;
+}
+
+#contact_container {
+	background: rgba(115, 51, 163, 0.36);
+	margin-bottom: 16px;
+	padding: 20px 55px;
+	line-height: 1.6em;
+	color: #fff;
+	text-align: center;
+	clear: both;
+	overflow: hidden;
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+
+#contact_text span {
+	font-weight: bold;
+}
+
+#tel {
+	font-size: 1.4em;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+	padding: 10px 15px;
+	font-size: 0.8em;
+	color: #626262;
+	width: 100%;
+}
+
+::-webkit-input-placeholder {
+	color: #b998ad;
+}
+
+:-moz-placeholder {
+	color: #b998ad;
+	opacity: 1;
+}
+
+::-moz-placeholder {
+	color: #b998ad;
+	opacity: 1;
+}
+
+:-ms-input-placeholder {
+	color: #b998ad;
+}
+
+:placeholder-shown {
+	color: #b998ad;
+}
+
+
+/*
+	    input[type=text],
+	    input[type=email],
+	    textarea {
+	        width: 60%;
+	    }
+*/
+
+input[type=text]:focus,
+input[type=email]:focus {
+	border-color: rgba(115, 51, 163, 1);
+}
+
+#msg {
+	color: #626262;
+}
+
+input[type=text],
+input[type=email] {
+	margin-bottom: -16px;
+}
+
+input[type=submit] {
+	padding: 8px 25px;
+	background: #fff;
+	border: 0 none;
+	cursor: pointer;
+	text-transform: uppercase;
+	color: rgba(115, 51, 163, 1);
+	font-weight: bold;
+	font-size: 0.8em;
+	margin-bottom: 18px;
+	margin-top: 12px;
+	width: 100%;
+}
+
+#send {
+	float: right;
+}
+
+
+/*
+
+	    
+	   
+	    @media only screen and (min-width: 961px) {
+	        input[type=text], input[type=email], textarea {
+	            width: 100%;
+	            margin-bottom: 5px;
+	            font-size: 0.8em;
+	        }
+	        #input_box {
+	            float: left;
+	            width: 40%;
+	            margin-right: 20px;
+	        }
+	        #textarea {
+	            float: left;
+	            width: 56%;
+	        }
+	        #form_container {
+	            margin: 0 auto;
+	            display: table;
+	        }
+	        #send {
+	            float: right;
+	            width: 26%;
+	            margin-right: 15px;
+	        }
+	        input[type=submit] {
+	            width: 100%;
+	        }
+	        #contact_container {
+	            line-height: 0.8em;
+	        }
+	    }*/
