@@ -461,7 +461,7 @@ footer p {
 		div.saying:hover {
 			display: block;
 		}
-		#right-container {
+		.right-container {
 			padding: 0;
 		}
 	}
